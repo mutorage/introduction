@@ -27,6 +27,6 @@
     align-items: center;
 }
 
-a {
+button > a {
     color: initial;
 }
