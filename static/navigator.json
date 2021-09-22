@@ -1,0 +1,171 @@
+{
+    "type": "div",
+    "props": {
+        "class": "muri-menus"
+    },
+    "children": [
+        {
+            "type": "div",
+            "props": {
+                "class": "muri-menu__left"
+            },
+            "children": [
+                {
+                    "type": "a",
+                    "props": {
+                        "href": "/beta/home",
+                        "class": "internal-link"
+                    },
+                    "children": [
+                        "홈"
+                    ]
+                },
+                {
+                    "type": "div",
+                    "props": {
+                        "class": "with-dropdown"
+                    },
+                    "children": [
+                        {
+                            "type": "a",
+                            "props": {
+                                "class": "internal-link",
+                                "href": "/chart"
+                            },
+                            "children": [
+                                "차트"
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "props": {
+                                "class": "dropdown-box"
+                            },
+                            "children": [
+                                {
+                                    "type": "a",
+                                    "props": {
+                                        "class": "internal-link",
+                                        "href": "/chart/music"
+                                    },
+                                    "children": [
+                                        "음악"
+                                    ]
+                                },
+                                {
+                                    "type": "a",
+                                    "props": {
+                                        "class": "internal-link",
+                                        "href": "/chart/music/video"
+                                    },
+                                    "children": [
+                                        "뮤직 비디오"
+                                    ]
+                                },
+                                {
+                                    "type": "a",
+                                    "props": {
+                                        "class": "internal-link"
+                                        ,
+                                        "href": "/chart/music/video/trending"
+                                    },
+                                    "children": [
+                                        "급상승 뮤직 비디오"
+                                    ]
+                                },
+                                {
+                                    "type": "a",
+                                    "props": {
+                                        "class": "internal-link",
+                                        "href": "/chart/artist"
+                                    },
+                                    "children": [
+                                        "인기 아티스트"
+                                    ]
+                                },
+                                {
+                                    "type": "a",
+                                    "props": {
+                                        "class": "internal-link",
+                                        "href": "/chart/track"
+                                    },
+                                    "children": [
+                                        "인기 트랙"
+                                    ]
+                                },
+                                {
+                                    "type": "hr",
+                                    "props": {},
+                                    "children": []
+                                },
+                                {
+                                    "type": "a",
+                                    "props": {
+                                        "class": "internal-link",
+                                        "href": "/chart/foreign"
+                                    },
+                                    "children": [
+                                        "해외 인기 차트"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "props": {
+                        "class": "search-navigator"
+                    },
+                    "children": [
+                        {
+                            "type": "div",
+                            "props": {
+                                "class": "search-box"
+                            },
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "props": {
+                                        "class": "input-warp"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "input",
+                                            "props": {
+                                                "placeholder": "검색"
+                                            },
+                                            "children": []
+                                        },
+                                        {
+                                            "type": "span",
+                                            "props": {
+                                                "class": "search-box-icon"
+                                            },
+                                            "children": [
+                                                {
+                                                    "type": "img",
+                                                    "props": {
+                                                        "src": "/assets/img/61013ec5ac82b0600c565f4449be14e8.svg"
+                                                    },
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "div",
+            "props": {
+                "class": "muri-menu__right"
+            },
+            "children": []
+        }
+    ]
+}
